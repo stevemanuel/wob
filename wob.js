@@ -18,7 +18,7 @@ var Wob = {
 };
 
 Wob.Session = {
-  store: [],
+  store: {},
 
   get: function(key) {
     return this.store[key];
